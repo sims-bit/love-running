@@ -1,0 +1,19 @@
+/* Astrisk wildcard selector to override default styles added by browser */
+* {
+    padding: 0; 
+    margin: 0; 
+    box-sizing: border-box;
+}
+
+/*header style*/
+header{
+    background-color: blue;
+}
+/*main style*/
+main {
+    background-color: brown;
+}
+/*footer style*/
+footer {
+    background-color: aquamarine;
+}
