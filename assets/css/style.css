@@ -285,6 +285,11 @@ main {
         text-align: end; 
         align-self: flex-end; 
     }
+
+    /*Gallery*/
+    #photos {
+        column-count: 3;
+    }
 }
 
 /* Large devices (laptops and desktops 992px and up) */
@@ -294,7 +299,10 @@ main {
         border-bottom: 1px solid #3a3a3a;
     }
     
-    .active
+    /*Gallery*/
+    #photos {
+        column-count: 4;
+    }
 }
 
 /*Media query: laptops and larger (1200px and up) */
