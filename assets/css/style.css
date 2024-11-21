@@ -194,6 +194,16 @@ main {
     color:#fafafa
 }
 
+/*Gallery Styles*/
+#photos img {
+    width: 100%;
+    line-height: 1em;
+}
+
+#photos {
+    line-height: 0;
+}
+
 /*footer style*/
 #social-networks {
     text-align: center;
